@@ -19,3 +19,17 @@ Udacity FSND Linux Server Configuration
 * pip
 * sqlalchemy
 * requests
+
+## Configurations Made
+
+* Set up of virtual Machiene on Amazon Lightsail
+* Update/upgrade all installed packages
+* Update timezone to UTC
+* Creation of a new user "grader" 
+* Change port from 22 to 2200
+* Configured UFW to only allow allow incoming connections for SSH(Port:2200), HTTP(Port:80) and NTP(Port:123)
+* Installed Apache server 
+* Configured Apache server to run python wsgi mods
+* Installed and configured PostgreSQL
+* Created "catalog" user in PostgreSQL
+
